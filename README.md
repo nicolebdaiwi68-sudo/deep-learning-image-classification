@@ -89,6 +89,7 @@ The results showed strong generalization across all four architectures.
 | **Emperor Tamarin** | 0 | 150 | 0 | 0 |
 | **Mandrill** | 0 | 0 | 150 | 0 |
 | **Proboscis Monkey** | 2 | 1 | 2 | 145 |
+The model classified Emperor Tamarin and Mandrill perfectly, while most errors occurred between Proboscis Monkey and the other classes.
 
 - ResNet50 showed the smallest gap between training and validation accuracy.
 - MobileNetV2 achieved slightly lower accuracy but remained highly competitive despite being a lightweight model.
